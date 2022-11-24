@@ -36,7 +36,7 @@ header img{
 }
 header li{
     display: inline;
-    padding-right: 35px;
+    padding-right: 20px;
     font-size: 1.5em;
 }
 header nav a{
@@ -55,7 +55,8 @@ header nav a:hover{
     min-width: 300px;
     padding-top: 30px;
 }
-#apresent{
+#apresent,
+#contact-cards{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -63,16 +64,19 @@ header nav a:hover{
 }
 #apresent img{
     width: 60%;
-    min-width: 500px;
+    min-width: 300px;
+    max-width: 800px;
 }
 #planos{
     padding-top:60px;
     
 }
-#planos h2{
+#planos h2,
+#contato h2{
     text-align: center;
     padding-bottom:24px;
 }
+/* cards planos */
 #planos-list{
     
     background-color: black;
@@ -93,20 +97,50 @@ header nav a:hover{
     margin: 24px;
 }
 #planos-list div h3{
+font-size: 2.7em;
+}
+#planos-list div h3,
+#contact-cards div h3{
     text-align: center;
-    font-size: 2.7em;
     padding-top: 2%;
 }
 #planos-list div h4{
     font-size: 2.4em;
     text-align: center;
-    
+    height: 10%;
+}
+#planos-list div ul{
+    height: 70%;
 }
 #planos-list div li{
     list-style-type: disc;
-    margin: 10px 0px 20px 25px;
+    margin: 10px 0px 10% 25px;
     font-weight: bold;
+
 }
+#contact-cards div{
+    width: 30%;
+    min-width: 300px;
+}
+#contact-cards div h3{
+
+}
+#contact-cards div,
+#contact-cards form{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+#contact-cards form input,
+#contact-cards form textarea,
+#contact-cards form button{
+    width: 80%;
+    aspect-ratio: 15/2;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
 
 
 
