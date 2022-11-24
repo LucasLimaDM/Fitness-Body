@@ -67,7 +67,7 @@ header nav a:hover{
 }
 #planos{
     padding-top:60px;
-    height: 800px;
+    
 }
 #planos h2{
     text-align: center;
@@ -98,13 +98,13 @@ header nav a:hover{
     padding-top: 2%;
 }
 #planos-list div h4{
-    font-size: 2em;
+    font-size: 2.4em;
     text-align: center;
     
 }
 #planos-list div li{
     list-style-type: disc;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 20px 25px;
     font-weight: bold;
 }
 
