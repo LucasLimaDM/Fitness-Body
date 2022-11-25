@@ -79,12 +79,10 @@ header nav a:hover{
 #contato h2,
 #galeria h2{
     text-align: center;
-    padding:12px 0px 24px 0px;
-    
+    padding:12px 0px 24px 0px; 
 }
 /* cards planos */
-#planos-list{
-    
+#planos-list{ 
     background-color: black;
     justify-content: space-around;
     align-items: center;
@@ -150,7 +148,6 @@ header nav a:hover{
     font-size: 1.5em;
     border: none;
 }
-
 #contact-cards form button:hover{
     background-color: #121212;
     cursor: pointer;
@@ -186,7 +183,3 @@ footer a{
     color: #ffffff;
     text-decoration: none;
 }
-
-
-
-
