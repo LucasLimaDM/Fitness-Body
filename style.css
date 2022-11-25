@@ -11,7 +11,7 @@ body{
 }
 h1,h2,h3,
 #contact-cards form button{
-    font-family: karantina;
+    font-family: karantina, sans-serif;
     font-weight: normal;
 }
 h2{
@@ -22,7 +22,7 @@ span{
 }
 /* header */
 header{
-    font-family: karantina;
+    font-family: karantina, Helvetica, sans-serif;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -76,7 +76,8 @@ header nav a:hover{
     
 }
 #planos h2,
-#contato h2{
+#contato h2,
+#galeria h2{
     text-align: center;
     padding:12px 0px 24px 0px;
     
