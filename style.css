@@ -35,8 +35,11 @@ header img{
     margin: 0 auto;
     margin-bottom: 8px;
 }
+header ul{
+    display: flex;
+}
 header li{
-    display: inline;
+    display: block;
     padding-right: 20px;
     font-size: 1.5em;
 }
@@ -155,7 +158,6 @@ header nav a:hover{
 /* redes sociais */
 section a img{
     height: 50px;
-  
 }
 #contact-cards ul{
     list-style: none;
@@ -165,10 +167,6 @@ section a img{
     justify-content: center;
     margin-top: 30px;
 
-}
-#youtube{
-    height: 40px ;
-    transform: translate(0px, 4px);
 }
 /* footer */
 footer{
@@ -182,4 +180,13 @@ footer{
 footer a{
     color: #ffffff;
     text-decoration: none;
+}
+@media(max-width:525px){
+    ul{
+        width: 100%;
+        justify-content: space-around;
+    }
+    nav{
+        width: 100%;
+    }
 }
